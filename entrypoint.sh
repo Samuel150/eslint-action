@@ -26,4 +26,5 @@ else
 fi
 
 echo "## Running ESLint"
+chmod 777 -R ./node_modules/.bin/
 sh -c "$setup ./node_modules/.bin/eslint $glob"
