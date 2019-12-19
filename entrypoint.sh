@@ -26,5 +26,5 @@ else
 fi
 
 echo "## Running ESLint"
-chmod 777 ../node_modules/.bin/eslint
-sh -c "$setup ./node_modules/.bin/eslint $glob"
+sudo chmod 777 ../node_modules/.bin/eslint
+sh "$setup ./node_modules/.bin/eslint $glob"
